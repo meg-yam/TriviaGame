@@ -1,0 +1,58 @@
+body {
+    background-image: url(../images/Background.jpg);
+}
+
+#trivia {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
+}
+
+#bottom {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-bottom: 70px;
+}
+
+.meat {
+    background-color: #ffcc00;
+    color: #00004d;
+    text-align: center;
+    font-family: 'Bigshot One', cursive;
+    font-size: 40px;
+    height: 90%;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.btn {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Fredericka the Great', cursive;
+    color: #fff;
+    background-color: #009999;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #006666;
+}
+  
+.btn:hover {
+    background-color: #008080;
+}
+  
+.btn:active {
+    background-color: #006666;
+    box-shadow: 0 5px #003333;
+    transform: translateY(4px);
+}
