@@ -22,7 +22,7 @@ body {
     color: #00004d;
     text-align: center;
     font-family: 'Bigshot One', cursive;
-    font-size: 40px;
+    font-size: 30px;
     height: 90%;
     padding: 10px;
     margin-bottom: 0px;
@@ -56,3 +56,4 @@ body {
     box-shadow: 0 5px #003333;
     transform: translateY(4px);
 }
+
