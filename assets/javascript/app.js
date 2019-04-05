@@ -8,20 +8,12 @@ var questions = [
     seven = true,
 ]
 
-$().ready(function() {
+var time;
 
-    $("#btn").on("click", function() {
-   
-        
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    });
+$(".butn").on("click", function() {
+    time = setTimeout(function() {
+        alert("Time's up!");
+    }, 3 * 1000);
 
-});   
+});
+  
